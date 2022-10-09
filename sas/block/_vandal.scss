@@ -1,0 +1,128 @@
+.vandal {
+  padding-top: 190px;
+  padding-bottom: 127px;
+}
+
+.vandal-title2 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  margin-bottom: 78px;
+  text-align: center;
+  color: #333333;
+}
+.vandal-block {
+  margin-bottom: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vandal-list {
+  margin-right: 30px;
+  margin-left: 30px;
+  flex-grow: 99.98;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 13px;
+}
+.vandal-item {
+  max-width: 193px;
+  background: #ffffff;
+  border-radius: 5px 5px 0px 0px;
+}
+.vandal-list__img {
+  margin: 30px 57px 12px 58px;
+  text-align: center;
+}
+.vandal-list__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  max-width: 126px;
+  margin-left: 32px;
+  color: #333333;
+}
+
+.vandal-img1 {
+  flex-grow: 0.01;
+  width: 14px;
+  height: 26px;
+}
+.vandal-img2 {
+  flex-grow: 0.01;
+  width: 14px;
+  height: 26px;
+}
+.vandal-list__img {
+  width: 78px;
+  height: 78px;
+}
+.vandal-block2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  gap: 53px;
+}
+.vandal-block2-img {
+  max-width: 590px;
+}
+.vandal-block2__list {
+}
+.vandal-block2__item {
+  max-width: 492px;
+}
+.vandal-block2__title2 {
+  margin-top: 50px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+
+  color: #333333;
+  margin-bottom: 18px;
+}
+.vandal-block2__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 10px;
+}
+.item_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.item-btn-link {
+  margin-top: 34px;
+  display: flex;
+  padding: 15px 35px;
+  background: #ffbd54;
+  border-radius: 3px;
+}
+.vandal-block2-list-img {
+  margin-right: 7px;
+  width: 21px;
+  height: 21px;
+}
+.vandal-block2-text1 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.item-btn-link2 {
+  margin-top: 34px;
+  display: flex;
+  padding: 15px 35px;
+  background: #333333;
+  border-radius: 3px;
+}
+@media only screen and (max-width: 1135px) {
+  .item_btn {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}

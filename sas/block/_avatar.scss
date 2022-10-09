@@ -1,0 +1,110 @@
+.avatar {
+  padding-top: 168px;
+  padding-bottom: 143px;
+}
+.avatar__container {
+  background: #78c0de;
+  border-radius: 5px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 90px 0px 90px 134px;
+}
+
+.avatar_img1 {
+  background-position-x: 0px;
+}
+.avatar__title2 {
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.avatar__block1 {
+  display: flex;
+}
+.avatar__inp {
+  border: #ffffff;
+  padding: 18px 147px 12px 22px;
+  background: #ffffff;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  margin-right: 21px;
+  color: #949494;
+}
+.avatatar__btn {
+  padding: 15px 52px;
+  background: #333333;
+  border-radius: 3px;
+}
+.avatar__img {
+  max-width: 600px;
+  height: 481px;
+}
+@media only screen and (max-width: 1224px) {
+  .avatar_img1 {
+    display: none;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .avatar__container {
+    background: #78c0de;
+    border-radius: 5px;
+    background-size: contain;
+    background-size: cover;
+  }
+  .avatar__block1 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .avatar__inp {
+    margin-bottom: 20px;
+  }
+  .avatar__title2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 20px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .avatar__title2 {
+    display: inline-block;
+  }
+  .avatar__container {
+    height: auto;
+    padding: 20px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .avatar__title2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 15px;
+  }
+  .avatar__inp {
+    padding: 10px 100px 10px 10px;
+  }
+  .avatatar__btn {
+    padding: 10px 35px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .avatar__title2 {
+    display: inline-block;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 15px;
+  }
+}

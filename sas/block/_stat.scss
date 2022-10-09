@@ -1,0 +1,112 @@
+.stat {
+  padding-bottom: 260px;
+}
+.stat__container {
+}
+.stat__title2 {
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 20px;
+  text-align: center;
+  color: #333333;
+}
+.stat__list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+
+  gap: 24px;
+}
+.stat__item {
+  max-width: 305px;
+  background: #fefefe;
+  border: 1px solid #e4e4e2;
+  border-radius: 5px;
+}
+.stat__list-img1 {
+  margin-bottom: 21px;
+}
+.stat__lisst-text {
+  right: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #949494;
+}
+.stat__list-title3 {
+  max-width: 190px;
+  margin-top: 2px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.stat__list-text1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 32px;
+}
+.stat__list-title5 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  padding-left: 45px;
+}
+.stat__list-title5::before {
+  content: "";
+  max-width: 23px;
+  height: 20px;
+  background-image: url("../../images/pet.svg");
+  background-color: #fff;
+}
+.wrap {
+  padding: 10px;
+}
+.stat-item-p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  color: #3d9cea;
+}
+.stat4-title2 {
+  max-width: 203px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 29px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.stat-list-text1 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-bottom: 32px;
+}
+.stat4-title5 {
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 25px;
+  color: #000000;
+}
+.stat-list__item-img {
+  margin-bottom: 19px;
+}
+.stat4-list-wrapper {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  margin-top: 13px;
+  margin-bottom: 32px;
+}
+.wrapip {
+  padding: 19px 7px;
+}
